@@ -122,28 +122,29 @@ body{
     text-decoration: none;
     color: #0071eb;
 }
-.foot{
-    padding: 20px 150px 40px;
-    background: rgba(0,0,0,1);
+a{
+    text-decoration: none;
     
 }
-.site-footer{
-    display: flex;
-    flex-direction: column;
+.footer a{
+    font-size: 0.8rem;
+    color: #999999;
 }
-.footer-links{
+.footer{
+    color: #8c8c8c;
+    max-width: 70%;
+    margin: 3rem auto;
+    overflow: auto;
+}
+ul{
+    list-style-type: none;
+}
+.footer .footer-col{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-row-gap: 50px;
- }
-.footer-top{
-    color: #737373;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 2rem;
 }
-.footer-link-item{
-    font-size: 12px;
-}
-
-.footer-link-item a{
-    text-decoration: none;
-    color: #737373;
+.footer li{
+    line-height: 2.4;
+    
 }
